@@ -1,4 +1,4 @@
-## Node.js Dockerfile
+## Java Dockerfile
 
 
 This repository contains **Dockerfile** of [Java](https://www.java.com/) for [Docker](https://www.docker.io/)'s [trusted build](https://index.docker.io/u/dockerfile/java/) published to the public [Docker Registry](https://index.docker.io/).
