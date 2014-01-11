@@ -21,3 +21,7 @@ This repository contains **Dockerfile** of [Java](https://www.java.com/) for [Do
 ### Usage
 
     docker run -i -t dockerfile/java bash
+
+#### Run `java`
+
+    docker run -i -rm -t dockerfile/nodejs java
