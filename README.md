@@ -15,7 +15,7 @@ This repository contains **Dockerfile** of [Java](https://www.java.com/) for [Do
 
 2. Download [trusted build](https://index.docker.io/u/dockerfile/java/) from public [Docker Registry](https://index.docker.io/): `docker pull dockerfile/java`
 
-   (alternatively, you can build an image from Dockerfile: `docker build -t="dockerfile/java" .`)
+   (alternatively, you can build an image from Dockerfile: `docker build -t="dockerfile/java" github.com/dockerfile/java`)
 
 
 ### Usage
@@ -24,4 +24,8 @@ This repository contains **Dockerfile** of [Java](https://www.java.com/) for [Do
 
 #### Run `java`
 
-    docker run -i -rm -t dockerfile/java java
+    docker run -i -rm -t dockerfile/java
+
+#### Run `javac`
+
+    docker run -i -rm -t dockerfile/java javac
