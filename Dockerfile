@@ -7,7 +7,7 @@
 # Pull base image.
 FROM dockerfile/ubuntu
 
-# Install Java
+# Install Java.
 RUN add-apt-repository -y ppa:webupd8team/java
 RUN apt-get update
 RUN echo debconf shared/accepted-oracle-license-v1-1 select true | debconf-set-selections
