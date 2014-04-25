@@ -14,5 +14,11 @@ RUN echo debconf shared/accepted-oracle-license-v1-1 select true | debconf-set-s
 RUN echo debconf shared/accepted-oracle-license-v1-1 seen true | debconf-set-selections
 RUN apt-get install -y oracle-java7-installer
 
+# Define mountable directories.
+VOLUME ["/data"]
+
+# Define working directory.
+WORKDIR "/data"
+
 # Define default command.
 CMD ["java"]
