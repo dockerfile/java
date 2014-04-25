@@ -8,7 +8,6 @@
 FROM dockerfile/ubuntu
 
 # Install Java
-RUN apt-get install -y software-properties-common
 RUN add-apt-repository -y ppa:webupd8team/java
 RUN apt-get update
 RUN echo debconf shared/accepted-oracle-license-v1-1 select true | debconf-set-selections
