@@ -18,7 +18,7 @@ RUN apt-get install -y oracle-java7-installer
 VOLUME ["/data"]
 
 # Define working directory.
-WORKDIR "/data"
+WORKDIR /data
 
 # Define default command.
 CMD ["java"]
