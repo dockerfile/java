@@ -21,4 +21,4 @@ VOLUME ["/data"]
 WORKDIR /data
 
 # Define default command.
-CMD ["java"]
+CMD ["bash"]

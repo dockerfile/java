@@ -20,12 +20,12 @@ This repository contains **Dockerfile** of [Java](https://www.java.com/) for [Do
 
 ### Usage
 
-    docker run -i -t dockerfile/java bash
+    docker run -it --rm dockerfile/java
 
 #### Run `java`
 
-    docker run -i -rm -t dockerfile/java
+    docker run -it --rm dockerfile/java java
 
 #### Run `javac`
 
-    docker run -i -rm -t dockerfile/java javac
+    docker run -it --rm dockerfile/java javac
