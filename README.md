@@ -9,15 +9,6 @@ This repository contains **Dockerfile** of [Java](https://www.java.com/) for [Do
 * [dockerfile/ubuntu](http://dockerfile.github.io/#/ubuntu)
 
 
-### Installation
-
-1. Install [Docker](https://www.docker.io/).
-
-2. Download [trusted build](https://index.docker.io/u/dockerfile/java/) from public [Docker Registry](https://index.docker.io/): `docker pull dockerfile/java`
-
-   (alternatively, you can build an image from Dockerfile: `docker build -t="dockerfile/java" github.com/dockerfile/java`)
-
-
 ### Docker Tags
 
 `dockerfile/java` provides multiple tagged images:
@@ -34,6 +25,15 @@ This repository contains **Dockerfile** of [Java](https://www.java.com/) for [Do
 For example, you can run a `Oracle Java 8` container with the following command:
 
     docker run -it --rm dockerfile/java:oracle-java8 java -version
+
+
+### Installation
+
+1. Install [Docker](https://www.docker.io/).
+
+2. Download [trusted build](https://index.docker.io/u/dockerfile/java/) from public [Docker Registry](https://index.docker.io/): `docker pull dockerfile/java`
+
+   (alternatively, you can build an image from Dockerfile: `docker build -t="dockerfile/java" github.com/dockerfile/java`)
 
 
 ### Usage
