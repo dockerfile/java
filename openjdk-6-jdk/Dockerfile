@@ -14,9 +14,6 @@ RUN \
   apt-get install -y openjdk-6-jdk && \
   rm -rf /var/lib/apt/lists/*
 
-# Define mountable directories.
-VOLUME ["/data"]
-
 # Define working directory.
 WORKDIR /data
 
