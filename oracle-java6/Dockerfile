@@ -14,7 +14,8 @@ RUN \
   add-apt-repository -y ppa:webupd8team/java && \
   apt-get update && \
   apt-get install -y oracle-java6-installer && \
-  rm -rf /var/lib/apt/lists/*
+  rm -rf /var/lib/apt/lists/* && \
+  rm -rf /var/cache/oracle-jdk6-installer
 
 # Define working directory.
 WORKDIR /data
