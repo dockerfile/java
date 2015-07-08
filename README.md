@@ -6,7 +6,7 @@ This repository contains **Dockerfile** of [Java](https://www.java.com/) for [Do
 
 ### Base Docker Image
 
-* [dockerfile/ubuntu](http://dockerfile.github.io/#/ubuntu)
+* [ubuntu:14.04](https://registry.hub.docker.com/u/library/ubuntu/)
 
 
 ### Docker Tags
