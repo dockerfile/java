@@ -24,4 +24,4 @@ WORKDIR /data
 ENV JAVA_HOME /usr/lib/jvm/java-7-oracle
 
 # Define default command.
-CMD ["bash"]
+CMD ["bash.sh", "run"]
