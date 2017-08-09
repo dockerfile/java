@@ -15,6 +15,7 @@ RUN \
   apt-get install -y software-properties-common python-software-properties && \
   add-apt-repository ppa:webupd8team/java -y && \
   apt-get update && \
+  
   apt-get install -y oracle-java8-installer && \
   apt-get install -y oracle-java8-set-default && \
   rm -rf /var/lib/apt/lists/* && \
