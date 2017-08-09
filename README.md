@@ -6,8 +6,8 @@
 
 ### Usage
     cd oracle-java8
-    docker build -t uandrew1965/java-sdk:1.8.0_144-b01 . ##(1.8.0_144-b01 version java-sdk now)
-    docker run -it --name java-sdk-1.8.0_144-b01 uandrew1965/java-sdk:1.8.0_144-b01
+    docker build -t uandrew1965/java-sdk:1.8.0.144-b01 . ##(1.8.0_144-b01 version java-sdk now)
+    docker run -it --name java-sdk-1.8.0.144-b01 uandrew1965/java-sdk:1.8.0.144-b01
     java -version
 
 
