@@ -13,7 +13,7 @@ RUN \
   echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | debconf-set-selections \
   && apt-get update \
   && apt-get dist-upgrade \
-  && DEBIAN_FRONTEND=noninteractive apt-get install -y software-properties-common python-software-properties \
+  && DEBIAN_FRONTEND=noninteractive apt-get install -y apt-utils software-properties-common python-software-properties \
   && add-apt-repository ppa:webupd8team/java -y \
   && apt-get update \
   && DEBIAN_FRONTEND=noninteractive apt-get install -y oracle-java8-installer \
