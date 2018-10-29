@@ -1,1 +1,1 @@
-../README.md
+This is a read me file explaining this app.
