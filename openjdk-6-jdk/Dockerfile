@@ -8,7 +8,7 @@
 # Pull base image.
 FROM dockerfile/ubuntu
 
-# Install Java.
+# Install Java in your system.
 RUN \
   apt-get update && \
   apt-get install -y openjdk-6-jdk && \
