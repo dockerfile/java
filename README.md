@@ -27,7 +27,7 @@ For example, you can run a `Oracle Java 8` container with the following command:
     docker run -it --rm dockerfile/java:oracle-java8 java -version
 
 
-### Installation
+### Installation Guide
 
 1. Install [Docker](https://www.docker.com/).
 
